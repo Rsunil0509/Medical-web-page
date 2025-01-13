@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="medicione.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Sample</title>
+</head>
+
+<body class="bg-new-green100">
+    <script src="medicine.js"></script>
+
+    <section class="bg-white w-3/4 place-self-center  m-auto">
+
+        <div class="header-box flex flex-wrap border-new-green200 border-y-4">
+            <div class=" w-3/5 flex items-center p-10 gap-4 flex-wrap">
+                <div>
+                    <img src="https://static.wixstatic.com/media/41d000_04a62d70af1531ccffc574ee3716d401.png/v1/fit/w_70,h_70,al_c,lg_1,q_85,enc_avif,quality_auto/41d000_04a62d70af1531ccffc574ee3716d401.png"
+                        alt="">
+                </div>
+                <div>
+                    <div class="flex flex-col ">
+                        <h1 class="font-bold text-3xl text-new-green200  flex flex-wrap ">
+                            Alternative<span class="font-light text-black">Medicine</span>
+
+                        </h1>
+                        <p class="font-light text-sm text-black">Acupuncture, Traditional Chinese Medicine, Chinese
+                            Herbs.</p>
+                    </div>
+                </div>
+            </div>
+            <div class=" ">
+                <div class="">
+                    <img src="https://media.istockphoto.com/id/1192284372/photo/composition-of-natural-alternative-medicine-with-capsules-essence-and-plants.jpg?s=612x612&w=0&k=20&c=AOZISN4jnN4hGm59us3hyR0BMymkyxkzTPM8CxsBWZI="
+                        alt="image" class="w-[376px] h-[150px]">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <nav>
+            <div class="flex  justify-between h-11 items-center font-semibold flex-wrap">
+
+                <div
+                    class=" hover: cursor-pointer active:bg-new-green100 flex-grow h-full text-center place-items-center ">
+                    <button class=" active:bg-new-green100 w-full h-full hover:bg-new-green100"
+                        onclick="togglePage('home')">Home</button>
+                </div>
+                <div class=" hover: cursor-pointer active:bg-new-green100 flex-grow h-full text-center">
+                    <button class=" active:bg-new-green100 w-full h-full hover:bg-new-green100"
+                        onclick="togglePage('about')">About</button>
+                </div>
+                <div class=" hover: cursor-pointer active:bg-new-green100 flex-grow h-full text-center">
+                    <button class=" active:bg-new-green100 w-full h-full hover:bg-new-green100"
+                        onclick="togglePage('treatment')">Treatments</button>
+                </div>
+                <div class=" hover: cursor-pointer active:bg-new-green100 flex-grow h-full text-center">
+                    <button class=" active:bg-new-green100 w-full h-full hover:bg-new-green100"
+                        onclick="togglePage()">Visit us</button>
+                </div>
+            </div>
+        </nav>
+
+        <section class="  " id="home">
+            <section class="bg-white h-auto w-full border-b-4 border-new-green200 ">
+                <div class="flex flex-wrap ml-10 py-8 font-sans gap-10">
+                    <div class="borde w-[500px] flex flex-col gap-5">
+                        <div>
+                            <h1 class="italic text-new-green200 text-2xl">A holistic way to improving your health.</h1>
+
+                        </div>
+                        <div>
+
+                            <h2 CLass="text-xl ">Let us show you how Chinese medicine can help you:</h2>
+                        </div>
+                        <div class="flex flex-col gap-5">
+                            <p class="text-sm text-gray-600 ">I'm a paragraph. Click here to add your own text and edit
+                                me.
+                                It’s easy. Just
+                                click “Edit
+                                Text” or double click me and you can start adding your own content and make changes to
+                                the
+                                font. Feel free to drag and drop me anywhere you like on your page. I’m a great place
+                                for
+                                you to tell a story and let your users know a little more about you.
+                                ​</p>
+
+                            <p class="text-sm text-gray-600 ">This is a great space to write long text about your
+                                company
+                                and your services. You can use
+                                this space to go into a little more detail about your company. Talk about your team and
+                                what
+                                services you provide. Tell your visitors the story of how you came up with the idea for
+                                your
+                                business and what makes you different from your competitors. Make your company stand out
+                                and
+                                show your visitors who you are. Tip: Add your own image by double clicking the image and
+                                clicking Change Image.</p>
+
+                            <p class="italic text-sm text-gray-600 ">Dr Anne Clarck and Dr. Melisa Goodwin</p>
+                        </div>
+                    </div>
+
+
+                    <div class="w-fit flex-grow items-center flex flex-col gap-5">
+                        <div class="w-40 flex flex-col gap-5">
+                            <h2>Visit Us</h2>
+
+                            <p class="text-[14px] text-gray-600">500 Terry Francine St.
+                                San Francisco, CA 94158
+                                Tel: 123-456-7890
+                                ​Mail: info@mysite.com</p>
+                        </div>
+
+                        <div class="w-40 flex flex-col gap-5">
+                            <h2>Available Treatments</h2>
+
+                            <ul class="marker:text-black list-disc text-[14px] pl-5 text-new-green200 space-y-2">
+                                <li>Acupuncture</li>
+                                <li>Chinese herbs</li>
+                                <li>Nutritional Counseling</li>
+                                <li>Fertility Counseling</li>
+                                <li>Massage</li>
+                                <li>Cupping</li>
+                            </ul>
+                        </div>
+                        <div class="mr-[80px]">
+                            <button class="bg-new-green200 text-white rounded-md text-sm p-0 w-28">More Info...</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="bg-new-green100 flex px-10 py-5 justify-between">
+                <h3 class="text-sm font-light">﻿© 2035 by Natural Remedies. Powered and secured by Wix</h3>
+                <div class="text-2xl">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class=" hidden  " id="about">
+            <section class="bg-white h-auto w-full ">
+                <div class="flex flex-wrap ml-10 py-8 font-sans gap-10">
+                    <div class="borde w-[500px] flex flex-col gap-5">
+                        <div>
+                            <h1 class="italic text-new-green200 text-2xl">About</h1>
+
+                        </div>
+                        <div>
+
+                            <h2 CLass="text-xl ">Anne Clarck</h2>
+                            <p class="text-new-green200 text-sm">B.App.SC (Chinese Medicine) <br>
+                                B.C.Ap.S (Human Nutrition) <br>
+                                Clinical Internship (JiangSu Provincial Hospital, China)</p>
+                        </div>
+                        <div class="flex flex-col gap-5">
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit
+                                me. It’s easy. Just click “Edit Text” or double click me and you can start adding your
+                                own content and make changes to the font. Feel free to drag and drop me anywhere you
+                                like on your page. I’m a great place for you to tell a story and let your users know a
+                                little more about you.
+                                ​
+                                ​</p>
+
+                            <p class="text-[13px] text-gray-600 ">This is a great space to write long text about your
+                                company
+                                and your services. You can use
+                                this space to go into a little more detail about your company. Talk about your team and
+                                what
+                                services you provide. Tell your visitors the story of how you came up with the idea for
+                                your
+                                business and what makes you different from your competitors. Make your company stand out
+                                and
+                                show your visitors who you are. Tip: Add your own image by double clicking the image and
+                                clicking Change Image.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="w-fit flex-grow items-center justify-center flex flex-col gap-5">
+                        <div class="">
+                            <img src="https://cdn.pixabay.com/photo/2016/03/11/19/28/fern-1250903_1280.jpg" alt="image"
+                                class="w-[270px] h-[280px]">
+                        </div>
+                    </div>
+
+                    <div class="w-[800px]">
+                        <p class="text-[13px] text-gray-600">Tip: Use this area to describe one of your services. You
+                            can change the title to the
+                            service you provide and use this text area to describe your service. Feel free to change
+                            the image.</p>
+                    </div>
+
+            </section>
+
+            <section class="bg-white h-auto w-full border-b-4 border-new-green200 ">
+                <div class="flex flex-wrap ml-10 py-8 font-sans gap-10">
+                    <div class="borde w-[500px] flex flex-col gap-5">
+
+                        <div>
+
+                            <h2 CLass="text-xl ">Melisa Goodwin</h2>
+                            <p class="text-new-green200 text-sm">B.App.SC (Chinese Medicine) <br>
+                                B.C.Ap.S (Human Nutrition) <br>
+                                Clinical Internship (JiangSu Provincial Hospital, China)</p>
+                        </div>
+                        <div class="flex flex-col gap-5">
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit
+                                me. It’s easy. Just click “Edit Text” or double click me and you can start adding your
+                                own content and make changes to the font. Feel free to drag and drop me anywhere you
+                                like on your page. I’m a great place for you to tell a story and let your users know a
+                                little more about you.
+                                ​
+                                ​</p>
+
+                            <p class="text-[13px] text-gray-600 ">This is a great space to write long text about your
+                                company
+                                and your services. You can use
+                                this space to go into a little more detail about your company. Talk about your team and
+                                what
+                                services you provide. Tell your visitors the story of how you came up with the idea for
+                                your
+                                business and what makes you different from your competitors. Make your company stand out
+                                and
+                                show your visitors who you are. Tip: Add your own image by double clicking the image and
+                                clicking Change Image.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="w-fit flex-grow items-center justify-center flex flex-col gap-5">
+                        <div class="">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmN1p_urybcwXV6lqmsh-S1bjsY5V66sZutw&s"
+                                alt="image" class="w-[270px] h-[280px]">
+                        </div>
+                    </div>
+
+                    <div class="w-[800px]">
+                        <p class="text-[13px] text-gray-600">Tip: Use this area to describe one of your services. You
+                            can change the title to the
+                            service you provide and use this text area to describe your service. Feel free to change
+                            the image.</p>
+                    </div>
+
+            </section>
+            <div class="bg-new-green100 flex px-10 py-5 justify-between">
+                <h3 class="text-sm font-light">﻿© 2035 by Natural Remedies. Powered and secured by Wix</h3>
+                <div class="text-2xl">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="hidden " id="treatment">
+            <section class="bg-white h-auto w-full border-b-4 border-new-green200 ">
+                <div class="flex flex-wrap ml-10 py-8 font-sans gap-10">
+                    <div class="borde w-[500px] flex flex-col gap-5">
+                        <div>
+                            <h1 class="italic text-new-green200 text-2xl">Treatments
+                            </h1>
+
+                        </div>
+                        <div class="flex flex-col">
+                            <h3>Acupuncture</h3>
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit me. It’s easy. Just click “Edit
+                                Text” or double click me and you can start adding your own content and make changes to
+                                the font. Feel free to drag and drop me anywhere you like on your page. I’m a great
+                                place for you to tell a story and let your users know a little more about you.</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3>Chinese Herbs</h3>
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit me. It’s easy. Just click “Edit
+                                Text” or double click me and you can start adding your own content and make changes to
+                                the font. Feel free to drag and drop me anywhere you like on your page. I’m a great
+                                place for you to tell a story and let your users know a little more about you.</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3>Cupping</h3>
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit me. It’s easy. Just click “Edit
+                                Text” or double click me and you can start adding your own content and make changes to
+                                the font. Feel free to drag and drop me anywhere you like on your page. I’m a great
+                                place for you to tell a story and let your users know a little more about you.</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3>Gua Sha</h3>
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit me. It’s easy. Just click “Edit
+                                Text” or double click me and you can start adding your own content and make changes to
+                                the font. Feel free to drag and drop me anywhere you like on your page. I’m a great
+                                place for you to tell a story and let your users know a little more about you.</p>
+                        </div>
+                        <div class="flex flex-col">
+                            <h3>Acupressure, Massage, Bodywork</h3>
+                            <p class="text-[13px] text-gray-600 ">I'm a paragraph. Click here to add your own text and
+                                edit me. It’s easy. Just click “Edit
+                                Text” or double click me and you can start adding your own content and make changes to
+                                the font. Feel free to drag and drop me anywhere you like on your page. I’m a great
+                                place for you to tell a story and let your users know a little more about you.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="w-fit flex-grow items-center flex flex-col gap-5">
+                        <div class="w-72 flex flex-col gap-5">
+                            <h2>Testimonials</h2>
+
+                            <p class="text-[14px] text-gray-600 border-4 p-5 border-new-green100 rounded-md">
+                                “I'm a testimonial. Click to edit me and add text that says something nice about you and
+                                your services. Let your customers review you and tell their friends how great you are.”
+                            </p>
+                        </div>
+                        <div class="w-72 flex flex-col gap-5">
+                            <h2>Natalie Wood</h2>
+
+                            <p class="text-[14px] text-gray-600 border-4 p-5 border-new-green100 rounded-md">
+                                “I'm a testimonial. Click to edit me and add text that says something nice about you and
+                                your services. Let your customers review you and tell their friends how great you are.”
+                            </p>
+                        </div>
+                        <div class="w-72 flex flex-col gap-5">
+                            <h2>Natalie Wood</h2>
+
+                            <div class="mr-[80px]">
+                                <button class="bg-new-green200 text-white rounded-md text-sm p-3 w-72">Make an
+                                    appointment</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+            <div class="bg-new-green100 flex px-10 py-5 justify-between">
+                <h3 class="text-sm font-light">﻿© 2035 by Natural Remedies. Powered and secured by Wix</h3>
+                <div class="text-2xl">
+                    <a><i class="fa-brands fa-facebook"></i></a>
+                    <a><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+        </section>
+
+
+    </section>
+
+</body>
+
+</html>

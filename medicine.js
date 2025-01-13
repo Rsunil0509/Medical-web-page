@@ -20,7 +20,7 @@ function togglePage(pageId) {
         homePage.classList.add('hidden');
         aboutPage.classList.add('hidden');
         treatmentPage.classList.remove('hidden');
-        visitpage.classList.remove('hidden');
+        visitpage.classList.add('hidden');
     }
     else if (pageId === 'visit') {
         homePage.classList.add('hidden');
